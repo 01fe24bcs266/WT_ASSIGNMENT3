@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Blog Dashboard</h1>
+
+    <form action="/addNote" method="POST">
+
+        <input
+            type="text"
+            name="title"
+            placeholder="Note Title"
+            required>
+
+        <textarea
+            name="content"
+            rows="5"
+            placeholder="Write your note here..."
+            required></textarea>
+
+        <button type="submit">
+            Add Note
+        </button>
+
+    </form>
+
+</div>
+
+</body>
+</html>
